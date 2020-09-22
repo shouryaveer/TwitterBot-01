@@ -1,7 +1,7 @@
 import tweepy
 from tkinter import *
 
-# Paste your Twitter developer account credentials below from: https://apps.twitter.com/
+# Paste your Twitter account Credentials below from: https://apps.twitter.com/
 consumer_key = 'comsumer-key'
 consumer_secret = 'consumer-secret'
 access_token = 'access-token'
@@ -52,9 +52,11 @@ def mainFunction():
 
     getE3()
     like = getE3()
+    like = like.lower()
 
     getE4()
     retweet = getE4()
+    retweet = retweet.lower()
 
     if retweet == "yes":
         for tweet in tweepy.Cursor(api.search, search).items(numberOfTweets):
