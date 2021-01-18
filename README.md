@@ -1,5 +1,5 @@
 # TwitterBot-01
-Twitter Bot App created with Python using Tweepy and Tkinter module that likes and retweets tweets based on specified keywords.
+A twitter bot program with a GUI created using Python modules Tkinter and Tweepy that likes and retweets the tweets based on user input keywords. 
 ################################################################################
 # INSTRUCTIONS:
 Step 1: Have Python3 Installed on your computer from https://www.python.org/downloads/
